@@ -19,7 +19,7 @@ import (
 
 const (
 	TARGET_URL       = "https://www.doutula.com/photo/list/"
-	DEFAULT_MAX_PAGE = 10
+	DEFAULT_MAX_PAGE = 100
 	PIC_EXPR         = "//img[@class=\"img-responsive lazy image_dta\" and contains(@alt,\"%s\")]"
 	PAGE_EXPR        = "//a[@class=\"page-link\"]//text()"
 	TIME_FMT         = "2006年01月02日15时04分05秒001毫秒"
